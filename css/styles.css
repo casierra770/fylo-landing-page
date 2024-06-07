@@ -10,11 +10,11 @@
    --LightGray: hsl(0, 0%, 75%);
 }
 
-*{
-    font-family: "raleway";
+body{
+    font-family: Raleway;
 }
 
-.menu{
+header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -51,14 +51,9 @@ main{
     margin-right: 70px;
 }
 
-p{
-    font-family: "calibri";
-}
-
 h1,h2{
     font-size: 40px;
     color: var(--VeryDarkBlue);
-    font-family: "calibri";
 }
 
 input,button{
@@ -74,11 +69,11 @@ button{
     width: auto;
 }
 
-aside{
+section{
     display: flex;
     align-items: center;
-    padding: 20px;
     background-color: var(--LightGrayishBlue);
+    padding: 20px;
 }
 
 aside a{
@@ -124,12 +119,6 @@ aside a{
     gap: 30px;
 }
 
-article{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--DesaturatedBlue);
-}
 
 article + div{
     width: 750px;
@@ -158,17 +147,17 @@ article{
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 50px;
     color: white;
-    background-color: var(--VeryDarkBlue);
+    background-color: var(--DesaturatedBlue);
 
 }
 
 footer{
     border: 1px solid red;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 27px;
 }
 
